@@ -123,7 +123,7 @@ setup(name='mongo-connector',
       platforms=["any"],
       classifiers=filter(None, classifiers.split("\n")),
       install_requires=['pymongo >= 2.7.2, < 3.0.0',
-                        'pysolr >= 3.1.0',
+                        'pysolr == 3.3.2.1',
                         'elasticsearch >= 1.2'],
       packages=["mongo_connector", "mongo_connector.doc_managers"],
       package_data={
