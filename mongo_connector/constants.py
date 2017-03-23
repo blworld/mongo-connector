@@ -22,7 +22,7 @@ DEFAULT_COMMIT_INTERVAL = None
 
 # Maximum # of documents to send in a single bulk request through a
 # DocManager.
-DEFAULT_MAX_BULK = 100000
+DEFAULT_MAX_BULK = 10000
 
 # The default MongoDB field that will serve as the unique key for the
 # target system.
